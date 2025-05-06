@@ -12,3 +12,120 @@
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
                                                                                                                         
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-03-27 01:02:20,340 - INFO - START AI_Test_Framework =============================================
+2025-03-27 01:02:20,340 - INFO - START AI_Test_Framework Start Time = 2025-03-27 01:02:20
+2025-03-27 01:02:20,340 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-03-27 01:02:20,341 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-03-27 01:02:23,277 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:2.95
+2025-03-27 01:02:23,277 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-03-27 01:02:23
+2025-03-27 01:02:23,277 - INFO - PERFORMANCE AI_Test_Framework Short process duration less than 3 Seconds:2.95
+2025-03-27 01:02:23,277 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is not reccomended
+2025-03-27 01:02:23,277 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-03-28 23:54:18,283 - INFO - START AI_Test_Framework =============================================
+2025-03-28 23:54:18,283 - INFO - START AI_Test_Framework Start Time = 2025-03-28 23:54:18
+2025-03-28 23:54:18,283 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-03-28 23:54:18,284 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-03-28 23:54:24,530 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:6.25
+2025-03-28 23:54:24,530 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-03-28 23:54:24
+2025-03-28 23:54:24,530 - INFO - PERFORMANCE AI_Test_Framework Low process duration less than 3 minutes:6.25
+2025-03-28 23:54:24,530 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
+2025-03-28 23:54:24,530 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-06 22:41:47,976 - INFO - START AI_Test_Framework =============================================
+2025-04-06 22:41:47,979 - INFO - START AI_Test_Framework Start Time = 2025-04-06 22:41:47
+2025-04-06 22:41:47,979 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-04-06 22:41:47,979 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-04-06 22:41:57,243 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:9.27
+2025-04-06 22:41:57,243 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-04-06 22:41:57
+2025-04-06 22:41:57,243 - INFO - PERFORMANCE AI_Test_Framework Low process duration less than 3 minutes:9.27
+2025-04-06 22:41:57,246 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
+2025-04-06 22:41:57,246 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-06 22:45:19,415 - INFO - START AI_Test_Framework =============================================
+2025-04-06 22:45:19,415 - INFO - START AI_Test_Framework Start Time = 2025-04-06 22:45:19
+2025-04-06 22:45:19,415 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-04-06 22:45:19,415 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-04-06 22:45:26,382 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:6.97
+2025-04-06 22:45:26,382 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-04-06 22:45:26
+2025-04-06 22:45:26,382 - INFO - PERFORMANCE AI_Test_Framework Low process duration less than 3 minutes:6.97
+2025-04-06 22:45:26,382 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
+2025-04-06 22:45:26,382 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-06 23:15:44,178 - INFO - START AI_Test_Framework =============================================
+2025-04-06 23:15:44,178 - INFO - START AI_Test_Framework Start Time = 2025-04-06 23:15:44
+2025-04-06 23:15:44,178 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-04-06 23:15:44,179 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-04-06 23:15:51,075 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:6.90
+2025-04-06 23:15:51,075 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-04-06 23:15:51
+2025-04-06 23:15:51,075 - INFO - PERFORMANCE AI_Test_Framework Low process duration less than 3 minutes:6.90
+2025-04-06 23:15:51,075 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
+2025-04-06 23:15:51,075 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-06 23:22:29,829 - INFO - START AI_Test_Framework =============================================
+2025-04-06 23:22:29,829 - INFO - START AI_Test_Framework Start Time = 2025-04-06 23:22:29
+2025-04-06 23:22:29,829 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-04-06 23:22:29,829 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-04-06 23:22:36,759 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:6.93
+2025-04-06 23:22:36,759 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-04-06 23:22:36
+2025-04-06 23:22:36,759 - INFO - PERFORMANCE AI_Test_Framework Low process duration less than 3 minutes:6.93
+2025-04-06 23:22:36,759 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
+2025-04-06 23:22:36,761 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-10 23:34:51,919 - INFO - START AI_Test_Framework =============================================
+2025-04-10 23:34:51,919 - INFO - START AI_Test_Framework Start Time = 2025-04-10 23:34:51
+2025-04-10 23:34:51,927 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-04-10 23:34:51,927 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-04-10 23:35:01,737 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:9.82
+2025-04-10 23:35:01,739 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-04-10 23:35:01
+2025-04-10 23:35:01,739 - INFO - PERFORMANCE AI_Test_Framework Low process duration less than 3 minutes:9.82
+2025-04-10 23:35:01,739 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
+2025-04-10 23:35:01,739 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-04-15 02:57:11,911 - INFO - START AI_Test_Framework =============================================
+2025-04-15 02:57:11,911 - INFO - START AI_Test_Framework Start Time = 2025-04-15 02:57:11
+2025-04-15 02:57:11,911 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-04-15 02:57:11,911 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-04-15 02:57:53,265 - INFO - NumExpr defaulting to 8 threads.
+2025-04-15 02:58:03,152 - INFO - START AI_Test_Framework =============================================
+2025-04-15 02:58:03,153 - INFO - START AI_Test_Framework Start Time = 2025-04-15 02:58:03
+2025-04-15 02:58:03,153 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-04-15 02:58:03,153 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
+2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:369.77
+2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-04-15 03:04:12
+2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework Medium process duration greater than 3 minutes:369.77
+2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
+2025-04-15 03:04:12,928 - INFO - END AI_Test_Framework =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        

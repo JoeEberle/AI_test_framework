@@ -1,0 +1,14 @@
+// Ontology Visualization
+digraph {
+	Person [shape=rectangle]
+	Alice [shape=ellipse]
+	Person -> Alice
+	Bob [shape=ellipse]
+	Person -> Bob
+	Alice -> has_Name:" Alice" [style=dashed]
+	Bob -> has_Name:" Bob" [style=dashed]
+	Alice -> has_Age:" 30" [style=dashed]
+	Bob -> has_Age:" 25" [style=dashed]
+	Alice -> has_City:" New York" [style=dashed]
+	Bob -> has_City:" Los Angeles" [style=dashed]
+}
