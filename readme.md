@@ -799,13 +799,3 @@ To get started with the **Ai Test Framework** solution repository, follow these 
 - ✅ **Educational** Each template includes educational narrative and background context to support learning, teaching, and collaborative development.
 
     
-## List of Figures
- ![additional_image](AI_assistant.png)  <br>![additional_image](AI_choosing_your_team_of_experts.png)  <br>![additional_image](AI_intelligence_components.png)  <br>![additional_image](AI_intelligence_components_current_state.png)  <br>![additional_image](AI_test_framework.png)  <br>![additional_image](architecture_diagram.png)  <br>![additional_image](choose_your_AI_Model.png)  <br>![additional_image](choose_your_assistant.png)  <br>![additional_image](choose_your_avatar.png)  <br>![additional_image](continuous_validation_improvement.png)  <br>![additional_image](IDEAL.png)  <br>![additional_image](ML_turned_off.png)  <br>![additional_image](Mutidisciplinary_AI_Health_Assistants.png)  <br>![additional_image](ontology_visualization.png)  <br>![additional_image](Test_Framework.png)  <br>![additional_image](validating_to_ground_truth.png)  <br>
-    
-
-## Github https://github.com/JoeEberle/ - Email  josepheberle@outlook.com 
-    
-![Developer](developer.png)
-
-![Brand](brand.png)
-    
