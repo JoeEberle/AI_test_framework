@@ -1,14 +1,4 @@
-2025-04-15 02:57:11,911 - INFO - START AI_Test_Framework =============================================
-2025-04-15 02:57:11,911 - INFO - START AI_Test_Framework Start Time = 2025-04-15 02:57:11
-2025-04-15 02:57:11,911 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
-2025-04-15 02:57:11,911 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
-2025-04-15 02:57:53,265 - INFO - NumExpr defaulting to 8 threads.
-2025-04-15 02:58:03,152 - INFO - START AI_Test_Framework =============================================
-2025-04-15 02:58:03,153 - INFO - START AI_Test_Framework Start Time = 2025-04-15 02:58:03
-2025-04-15 02:58:03,153 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
-2025-04-15 02:58:03,153 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.
-2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework The total process duration was:369.77
-2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework Stop Time = 2025-04-15 03:04:12
-2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework Medium process duration greater than 3 minutes:369.77
-2025-04-15 03:04:12,927 - INFO - PERFORMANCE AI_Test_Framework Performance optimization is optional
-2025-04-15 03:04:12,928 - INFO - END AI_Test_Framework =============================================
+2025-05-09 07:53:32,217 - INFO - START AI_Test_Framework =============================================
+2025-05-09 07:53:32,217 - INFO - START AI_Test_Framework Start Time = 2025-05-09 07:53:32
+2025-05-09 07:53:32,218 - INFO - AI_Test_Framework Step 0 - Initialize the configuration file parser
+2025-05-09 07:53:32,218 - INFO - Process AI_Test_Framework Step 0 - Initializing and starting Logging Process.

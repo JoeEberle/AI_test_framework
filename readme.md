@@ -10,33 +10,45 @@
     
 
 
-## THRIVEAI Team Meeting Agenda
-
-1. **Meeting Objective**  
-   - Share individual updates on progress and challenges.
-   - Foster knowledge-sharing through discoveries and learning aspirations.  
-   - Keep updates concise 
-2. **Individual Updates - Each Person**  
-   - **Name:** [Team Member's Name]  
-   - **Hours Worked:** [Enter number of hours worked since the last meeting.]  
-   - **Roadblocks Encountered:**  
-     [Briefly describe any challenges faced and potential solutions.]  
-   - **Something New Discovered:**  
-     [Highlight a new insight, tool, or method learned during work.]  
-   - **Something New to Learn:**  
-     [Identify a skill, topic, or area of interest to explore next.]  
-3. **Demonstrations & Lessons Learned**  
-   - **Thrive AI User Interface Update** - Kyle   
-   - **2nd:** [Name]  
-   - **3rd:** [Name]  
-   - Continue until all team members have shared.
-4. **Team Discussion**  
-   - **Collaborative Problem-Solving:**  
-     Discuss common roadblocks and brainstorm solutions.  
-   - **Knowledge Exchange:**  
-     Share any resources, tools, or strategies based on discoveries and learning aspirations.  
-   - **Next Steps & Assignments:**  
-     Align on team goals and learning opportunities before the next meeting.  
+## Architecture Overview	
+## The Brain 	
+	1.	What we showed last time (2 months ago)
+	2.	whats built and available
+	3.	What is turned on and why 
+##	Ethical Guardrails & Domain Topic Classifier	
+		1 Sexism, 2 racism, 3 innappropriate, 4 hostility, 5 practicing medicine, 6  PHI
+		7. Domain 8. Topic = Chatbot intent
+##	Ground Truth - 1863 Validated Questions	
+##	Imperical Score Card 	
+	1.	**Domain Scorecard** - Big Picture
+	2.	**Topic Scorecard** - What areas need improvement
+##	Demo -  lines of questioning	
+	1.	Health Care  - how many smokers in wny 
+	2.	Health Care  - how many children  smokers in wny 
+	3.	Penguins   - average beak size per species  
+	4.	Titanic  -Average age of passengers
+	5.	Penguins -Species by island
+	6.	Health Care - Smokers by gender
+	7.	Health Care  - Types of cancer
+	8.	count of IDA_state disparity 
+	9.	Titanic  -survivors by pclass
+	10.	Health Care - Smokers by gender and age decade
+## Demo -  System Features	
+	1.	Show SQL
+	2.	Show Table
+	3.	Show Graph
+	4.	Recommended questions 
+	5.	Follow up question 
+	6.	Prior questions 
+##	Next steps - Training and Hyper parameter tuning  	
+	1.	Establishing role based security
+	2.	establishing HEL AWS hosting infrastructure
+	3.	connecting to HEL database live
+	4.	Training on external source  - Understanding wny geography
+	5.	Training on IDA - understanding disparity
+    6.	Preparing documentation for state
+	7.	establishing pilot group 1
+	8.	establishing pilot group 2
 
 
  
@@ -695,6 +707,58 @@ By refining these layers and introducing a continuous learning component, the da
 ❌ **Cons** **Lacks continuous updates**, making it less effective for fastchanging knowledge domains.  
 
 
+
+
+
+
+## Layering Intelligence
+
+Building a super intelligent AI assistant involves integrating various layers of artificial intelligence technologies, each contributing uniquely to the assistants capabilities. These layers collectively enhance the assistants ability to understand, process, and respond to user inputs in a meaningful way. Heres an enumerated list of AI layers that you might consider for such a system
+
+1. **Natural Language Processing (NLP)**
+    **Purpose** Enables the AI to understand and generate human language. Its used for parsing, understanding context, sentiment analysis, and generating coherent, contextually appropriate responses.
+    **Application** Can be used to answer general questions, assist in tasks like booking appointments, and understand user commands or queries.
+
+2. **Machine Learning Classifiers**
+    **Purpose** Classifies inputs into predefined categories based on learned patterns from data.
+    **Application** Identifies the intent behind queries or commands, categorizes user requests, and triggers appropriate workflows or responses.
+
+3. **Neural Networks**
+    **Purpose** Models complex patterns and predictions using layers of neurons. Essential for deep learning tasks.
+    **Application** Powers complex decisionmaking processes, image and speech recognition, and can enhance the personalization of responses based on user behavior and preferences.
+
+4. **Generative AI**
+    **Purpose** Uses models like GPT (Generative Pretrained Transformer) to generate text that mimics human writing styles and content generation.
+    **Application** Used to create detailed and nuanced responses to user queries, generate creative content, or even draft emails and reports.
+
+5. **Speech Recognition**
+    **Purpose** Converts spoken language into text. This is crucial for voiceactivated systems.
+    **Application** Allows users to interact with the AI assistant through voice commands, making the assistant accessible in handsfree scenarios like driving or cooking.
+
+6. **Recommendation Systems**
+    **Purpose** Analyzes patterns in user data to predict and recommend relevant items or actions.
+    **Application** Suggests actions, answers, or content based on the users past behavior, enhancing user experience by personalizing interactions.
+
+7. **Query Generation for Databases**
+    **Purpose** Automatically formulates and executes database queries based on user commands or questions.
+    **Application** Retrieves and manipulates data from internal or external databases without manual SQL input, useful in business intelligence and datadriven decisionmaking.
+
+8. **Semantic Analysis**
+    **Purpose** Goes beyond basic keyword recognition to understand the deeper meaning and relationships in text.
+    **Application** Helps in understanding complex queries, resolving ambiguities in human language, and ensuring the context is maintained across conversations.
+
+9. **Emotion and Sentiment Analysis**
+    **Purpose** Analyzes the emotional tone behind texts or spoken inputs.
+    **Application** Adjusts responses based on the users emotional state or sentiment, which is particularly useful in customer service scenarios.
+
+10. **Robot Process Automation (RPA)**
+     **Purpose** Automates repetitive tasks by mimicking human interactions with digital systems.
+     **Application** Handles routine backend tasks triggered by user requests, such as booking tickets or updating records, efficiently and without human error.
+
+By layering these technologies, a super intelligent AI assistant can perform a wide range of tasks, from simple question answering to complex problem solving and personalized interactions. Each layer enhances the systems ability to understand and interact in more humanlike ways, leading to richer user experiences and more effective assistance.
+
+
+
 <br>
 
 ![Solution](code.png)
@@ -736,7 +800,7 @@ To get started with the **Ai Test Framework** solution repository, follow these 
 
     
 ## List of Figures
- ![additional_image](AI_assistant.png)  <br>![additional_image](AI_choosing_your_team_of_experts.png)  <br>![additional_image](AI_intelligence_components.png)  <br>![additional_image](AI_intelligence_components_current_state.png)  <br>![additional_image](AI_test_framework.png)  <br>![additional_image](choose_your_AI_Model.png)  <br>![additional_image](choose_your_assistant.png)  <br>![additional_image](choose_your_avatar.png)  <br>![additional_image](continuous_validation_improvement.png)  <br>![additional_image](IDEAL.png)  <br>![additional_image](Mutidisciplinary_AI_Health_Assistants.png)  <br>![additional_image](ontology_visualization.png)  <br>![additional_image](validating_to_ground_truth.png)  <br>
+ ![additional_image](AI_assistant.png)  <br>![additional_image](AI_choosing_your_team_of_experts.png)  <br>![additional_image](AI_intelligence_components.png)  <br>![additional_image](AI_intelligence_components_current_state.png)  <br>![additional_image](AI_test_framework.png)  <br>![additional_image](architecture_diagram.png)  <br>![additional_image](choose_your_AI_Model.png)  <br>![additional_image](choose_your_assistant.png)  <br>![additional_image](choose_your_avatar.png)  <br>![additional_image](continuous_validation_improvement.png)  <br>![additional_image](IDEAL.png)  <br>![additional_image](ML_turned_off.png)  <br>![additional_image](Mutidisciplinary_AI_Health_Assistants.png)  <br>![additional_image](ontology_visualization.png)  <br>![additional_image](Test_Framework.png)  <br>![additional_image](validating_to_ground_truth.png)  <br>
     
 
 ## Github https://github.com/JoeEberle/ - Email  josepheberle@outlook.com 
