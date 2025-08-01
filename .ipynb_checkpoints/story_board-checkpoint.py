@@ -1,11 +1,12 @@
 from IPython.display import Markdown, display, Image
 
 def clean_string(input_string):
-    input_string = input_string.replace("‐", " ")  # replace minus signs with blank
+    # input_string = input_string.replace("‐", " ")  # replace minus signs with blank
     input_string = input_string.replace("﴾", "(")  # squiggle parenthesis with parenthesis 
     input_string = input_string.replace("﴿", ")")  # squiggle parenthesis with parenthesis     
 
     unwanted_chars = '"\'‐-–:/“”‘’'  # Add any other quote-like or minus/dash characters
+    unwanted_chars = '"\':/“”‘’'  # Add any other quote-like or minus/dash characters    
     translation_table = str.maketrans('', '', unwanted_chars)
 
     cleaned_string = input_string.translate(translation_table)
