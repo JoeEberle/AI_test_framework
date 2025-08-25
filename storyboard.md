@@ -638,3 +638,574 @@ As part of our AI assistant platform, we employ on-the-fly ontology generation u
 
 ![Image](ontology_visualization.png)
 
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+###Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+LLM Server – Hosts open-source LLMs and RAG processing logic.
+
+Web Server – Hosts the Streamlit-based chatbot UI and API services.
+
+Database Server – Houses application metadata, training sets, user info, and reference statistics.
+
+Deliverables VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+##⚙️ Phase 2 Installation & Configuration (Week 3)
+Install application modules (chat UI, SQL recommender, RAG engine).
+
+Configure dependencies Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+
+Establish logging, monitoring, and backup policies.
+
+Deliverables Full-stack operational environment; verified data pipeline.
+
+🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+Scan and ingest schema metadata from the internal population health warehouse.
+
+Generate DDL documentation, tablecolumn descriptions, sample SQL queries.
+
+Map relationships and joins for clinical and claims data.
+
+Identify and tag sensitive fields (e.g., PHI, high-risk attributes).
+
+Deliverables Knowledge base for LLM tuning and RAG grounding.
+
+🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+Integrate data discovery results with LLMs prompt context via RAG.
+
+Use Vanna.ai to optimize SQL generation workflows.
+
+Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+Deliverables Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+Implement secure user registration (OAuth or SSO).
+
+Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+
+Configure access control at both application and database levels.
+
+Log user interactions for auditing and future retraining.
+
+Deliverables User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+###Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+1. **LLM Server** – Hosts open-source LLMs and RAG processing logic.
+2. **Web Server** – Hosts the Streamlit-based chatbot UI and API services.
+3. **Database Server** – Houses application metadata, training sets, user info, and reference statistics.
+
+**Deliverables** VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+##⚙️ Phase 2 Installation & Configuration (Week 3)
+
+1. Install application modules (chat UI, SQL recommender, RAG engine).
+2. Configure dependencies Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+3. Establish logging, monitoring, and backup policies.
+
+**Deliverables** Full-stack operational environment; verified data pipeline.
+
+🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+
+Scan and ingest schema metadata from the internal population health warehouse.
+
+3.1 full schema DDL documentation
+3.2 tablecolumn descriptions 
+3.3 sample SQL queries.
+3.4 join taining - Map relationships and joins for clinical and claims data.
+3.5 Undisclosed list - Identify and tag sensitive fields (e.g., PHI, high-risk attributes, or ANY tables not to be queried).
+
+**Deliverables** Knowledge base for LLM tuning and RAG grounding.
+
+## 🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+
+Integrate data discovery results with LLMs prompt context via RAG.
+
+4.1 Use Vanna.ai to optimize SQL generation workflows.
+4.2 Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+**Deliverables** Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+
+Implement secure user registration (OAuth or SSO).
+
+1. Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+2. Configure access control at both application and database levels.
+3. Log user interactions for auditing and future retraining.
+
+**Deliverables** User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+###Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+1. **LLM Server** – Hosts open-source LLMs and RAG processing logic.
+2. **Web Server** – Hosts the Streamlit-based chatbot UI and API services.
+3. **Database Server** – Houses application metadata, training sets, user info, and reference statistics.
+
+**Deliverables** VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+## ⚙️ Phase 2 Installation & Configuration (Week 3)
+
+1. Install application modules (chat UI, SQL recommender, RAG engine).
+2. Configure dependencies Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+3. Establish logging, monitoring, and backup policies.
+
+**Deliverables** Full-stack operational environment; verified data pipeline.
+
+🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+
+Scan and ingest schema metadata from the internal population health warehouse.
+
+3.1 full schema DDL documentation
+3.2 tablecolumn descriptions 
+3.3 sample SQL queries.
+3.4 join taining - Map relationships and joins for clinical and claims data.
+3.5 Undisclosed list - Identify and tag sensitive fields (e.g., PHI, high-risk attributes, or ANY tables not to be queried).
+
+**Deliverables** Knowledge base for LLM tuning and RAG grounding.
+
+## 🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+
+Integrate data discovery results with LLMs prompt context via RAG.
+
+4.1 Use Vanna.ai to optimize SQL generation workflows.
+4.2 Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+**Deliverables** Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+
+Implement secure user registration (OAuth or SSO).
+
+1. Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+2. Configure access control at both application and database levels.
+3. Log user interactions for auditing and future retraining.
+
+**Deliverables** User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+###Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+1. **LLM Server** – Hosts open-source LLMs and RAG processing logic.
+2. **Web Server** – Hosts the Streamlit-based chatbot UI and API services.
+3. **Database Server** – Houses application metadata, training sets, user info, and reference statistics.
+
+**Deliverables** VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+## ⚙️ Phase 2 Installation & Configuration (Week 3)
+
+1. **Install application modules** (chat UI, SQL recommender, RAG engine).
+2. **Configure dependencies** Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+3. **Establish logging, monitoring, and backup policies**.
+4. **Establish and test Fire Walls** configurations and inter server communications
+
+**Deliverables** Full-stack operational environment; verified data pipeline.
+
+🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+
+Scan and ingest schema metadata from the internal population health warehouse.
+
+1 **full schema DDL documentation** identify create table constructs for every table 
+2 **tablecolumn descriptions** Ingest and augment existing database documentation 
+3 **sample SQL queries** Approximately 5 samples for every major table or view.
+4 **join taining** - Map relationships and joins for clinical and claims data.
+5 **Undisclosed list** - Identify and tag sensitive fields (e.g., PHI, high-risk attributes, or ANY tables not to be queried).
+
+**Deliverables** Knowledge base for LLM tuning and RAG grounding.
+
+## 🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+
+Integrate data discovery results with LLMs prompt context via RAG.
+
+4.1 Use Vanna.ai to optimize SQL generation workflows.
+4.2 Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+**Deliverables** Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+
+Implement secure user registration (OAuth or SSO).
+
+1. Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+2. Configure access control at both application and database levels.
+3. Log user interactions for auditing and future retraining.
+
+**Deliverables** User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+###Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+1. **LLM Server** – Hosts open-source LLMs and RAG processing logic.
+2. **Web Server** – Hosts the Streamlit-based chatbot UI and API services.
+3. **Database Server** – Houses application metadata, training sets, user info, and reference statistics.
+
+**Deliverables** VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+## ⚙️ Phase 2 Installation & Configuration (Week 3)
+
+1. **Install application modules** (chat UI, SQL recommender, RAG engine).
+2. **Configure dependencies** Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+3. **Establish logging, monitoring, and backup policies**.
+4. **Establish and test Fire Walls** configurations and inter server communications
+
+**Deliverables** Full-stack operational environment; verified data pipeline.
+
+🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+
+Scan and ingest schema metadata from the internal population health warehouse.
+
+1 **full schema DDL documentation** identify create table constructs for every table 
+2 **tablecolumn descriptions** Ingest and augment existing database documentation 
+3 **sample SQL queries** Approximately 5 samples for every major table or view.
+4 **join taining** - Map relationships and joins for clinical and claims data.
+5 **Undisclosed list** - Identify and tag sensitive fields (e.g., PHI, high-risk attributes, or ANY tables not to be queried).
+
+**Deliverables** Knowledge base for LLM tuning and RAG grounding.
+
+## 🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+
+Integrate data discovery results with LLMs prompt context via RAG.
+
+1 Use Vanna.ai to optimize SQL generation workflows.
+2 Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+**Deliverables** Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+
+Implement secure user registration (OAuth or SSO).
+
+1. Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+2. Configure access control at both application and database levels.
+3. Log user interactions for auditing and future retraining.
+
+**Deliverables** User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+
+### Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+1. **LLM Server** – Hosts open-source LLMs and RAG processing logic.
+2. **Web Server** – Hosts the Streamlit-based chatbot UI and API services.
+3. **Database Server** – Houses application metadata, training sets, user info, and reference statistics.
+
+**Deliverables** VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+## ⚙️ Phase 2 Installation & Configuration (Week 3)
+
+1. **Install application modules** (chat UI, SQL recommender, RAG engine).
+2. **Configure dependencies** Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+3. **Establish logging, monitoring, and backup policies**.
+4. **Establish and test Fire Walls** configurations and inter server communications
+
+**Deliverables** Full-stack operational environment; verified data pipeline.
+
+🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+
+Scan and ingest schema metadata from the internal population health warehouse.
+
+1 **full schema DDL documentation** identify create table constructs for every table 
+2 **tablecolumn descriptions** Ingest and augment existing database documentation 
+3 **sample SQL queries** Approximately 5 samples for every major table or view.
+4 **join taining** - Map relationships and joins for clinical and claims data.
+5 **Undisclosed list** - Identify and tag sensitive fields (e.g., PHI, high-risk attributes, or ANY tables not to be queried).
+
+**Deliverables** Knowledge base for LLM tuning and RAG grounding.
+
+## 🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+
+Integrate data discovery results with LLMs prompt context via RAG.
+
+1 Use Vanna.ai to optimize SQL generation workflows.
+2 Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+**Deliverables** Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+
+Implement secure user registration (OAuth or SSO).
+
+1. Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+2. Configure access control at both application and database levels.
+3. Log user interactions for auditing and future retraining.
+
+**Deliverables** User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+
+### Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+1. **LLM Server** – Hosts open-source LLMs and RAG processing logic.
+2. **Web Server** – Hosts the Streamlit-based chatbot UI and API services.
+3. **Database Server** – Houses application metadata, training sets, user info, and reference statistics.
+
+**Deliverables** VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+## ⚙️ Phase 2 Installation & Configuration (Week 3)
+
+1. **Install application modules** (chat UI, SQL recommender, RAG engine).
+2. **Configure dependencies** Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+3. **Establish logging, monitoring, and backup policies**.
+4. **Establish and test Fire Walls** configurations and inter server communications
+
+**Deliverables** Full-stack operational environment; verified data pipeline.
+
+🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+
+Scan and ingest schema metadata from the internal population health warehouse.
+
+1 **full schema DDL documentation** identify create table constructs for every table 
+2 **tablecolumn descriptions** Ingest and augment existing database documentation 
+3 **sample SQL queries** Approximately 5 samples for every major table or view.
+4 **join taining** - Map relationships and joins for clinical and claims data.
+5 **Undisclosed list** - Identify and tag sensitive fields (e.g., PHI, high-risk attributes, or ANY tables not to be queried).
+
+**Deliverables** Knowledge base for LLM tuning and RAG grounding.
+
+## 🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+
+Integrate data discovery results with LLMs prompt context via RAG.
+
+1 Use Vanna.ai to optimize SQL generation workflows.
+2 Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+**Deliverables** Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+
+Implement secure user registration (OAuth or SSO).
+
+1. Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+2. Configure access control at both application and database levels.
+3. Log user interactions for auditing and future retraining.
+
+**Deliverables** User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
+
+
+
+
+# 🧭 AI Health Assistant Platform – Rollout Plan
+
+### Objective
+Deploy and operationalize an AI-driven health assistant platform that uses natural language interfaces, retrieval-augmented generation (RAG), and SQL prompt engineering (via Vanna.ai) to deliver insights from a secure population health database. The goal is to support population health analysts, providers, and community organizations through an ethical, role-based, and privacy-aware AI system.
+
+## 📌 Phase 1 Infrastructure Setup (Week 1–2)
+
+### Deploy a secure three-tier AWS-based architecture
+
+1. **LLM Server** – Hosts open-source LLMs and RAG processing logic.
+2. **Web Server** – Hosts the Streamlit-based chatbot UI and API services.
+3. **Database Server** – Houses application metadata, training sets, user info, and reference statistics.
+
+**Deliverables** VPC configuration, firewall rules, instance provisioning (EC2, RDS), and static IPs for secure access.
+
+## ⚙️ Phase 2 Installation & Configuration (Week 3)
+
+1. **Install application modules** (chat UI, SQL recommender, RAG engine).
+2. **Configure dependencies** Pandoc, PostgreSQL, Python packages, Vanna.ai API keys.
+3. **Establish logging, monitoring, and backup policies**.
+4. **Establish and test Fire Walls** configurations and inter server communications
+
+**Deliverables** Full-stack operational environment; verified data pipeline.
+
+## 🧬 Phase 3 Data Discovery & Schema Mapping (Week 4–5)
+
+Scan and ingest schema metadata from the internal population health warehouse.
+
+1. **full schema DDL documentation** identify create table constructs for every table 
+2. **tablecolumn descriptions** Ingest and augment existing database documentation 
+3. **sample SQL queries** Approximately 5 samples for every major table or view.
+4. **join training** - Map relationships and joins for clinical and claims data.
+5. **Undisclosed list** - Identify and tag sensitive fields (e.g., PHI, high-risk attributes, or ANY tables not to be queried).
+
+**Deliverables** Knowledge base for LLM tuning and RAG grounding.
+
+## 🧠 Phase 4 LLM Training & RAG Fine-Tuning (Week 6–7)
+
+Integrate data discovery results with LLMs prompt context via RAG.
+
+1 Use Vanna.ai to optimize SQL generation workflows.
+2 Manually label and explain ambiguous or domain-specific columns.
+
+Create feedback loops using thumbs-updown to guide continuous improvement.
+
+**Deliverables** Custom-tuned RAG pipeline capable of answering 80% of queries with 80% confidence.
+
+## 👥 Phase 5 Security, Personas & User Access (Week 8)
+
+Implement secure user registration (OAuth or SSO).
+
+1. Assign roles Patient, Provider, Analyst, Admin, Epidemiologist, etc.
+2. Configure access control at both application and database levels.
+3. Log user interactions for auditing and future retraining.
+
+**Deliverables** User and role directory, access control logic, and persona-driven response tailoring.
+
+## 📅 Estimated Timeline Overview
+Phase	Duration	Output
+1. Infrastructure Setup	Week 1–2	AWS LLMWebDB server setup
+2. Installation & Configuration	Week 3	Working AI platform
+3. Data Discovery	Week 4–5	Knowledge base and SQL context
+4. LLM RAG Fine-Tuning	Week 6–7	Optimized prompt + SQL responses
+5. User Security & Personas	Week 8	Role-based secure access and response logic
+
+
+
+
